@@ -1,0 +1,49 @@
+```{r}
+Sys.setlocale(locale = "chs")
+install.packages("stringr")
+library(stringr)
+install.packages("readr")
+library(readr)
+```
+
+
+```{r}
+data <- read.csv("SalseData.csv")
+data2 <- read.csv("SalsePersonData.csv")
+
+```
+
+```{r}
+colnames(data) <- c("日期","国家","城市","地区","服务分类","销售额","利润")
+data$销售额 <- parse_number(data$`销售额`)
+data$利润 <- parse_number(data$利润)
+data$利润[which(is.na(data$利润))] <- 0
+```
+
+
+```{r}
+year_data <- data$日期
+
+year_data <- format(as.Date(year_data,format="%m/%d/%Y"),"%Y")
+data_1 <- data
+
+data_1$年度 <- year_data
+data_1$季度 <- data_1$日期
+data_1$季度[which(format(as.Date(data_1$日期,format="%m/%d/%Y"),"%m") %in% c("01","02","03"))] <- '第一季度'
+data_1$季度[which(format(as.Date(data_1$日期,format="%m/%d/%Y"),"%m") %in% c("04","05","06"))] <- '第二季度'
+data_1$季度[which(format(as.Date(data_1$日期,format="%m/%d/%Y"),"%m") %in% c("07","08","09"))] <- '第三季度'
+data_1$季度[which(format(as.Date(data_1$日期,format="%m/%d/%Y"),"%m") %in% c("10","11","12"))] <- '第四季度'
+
+
+#data_1 <-merge(unique(year_data),data)
+
+
+```
+
+```{r}
+colnames(data2) <- c("日期","销售经理","地区","销售合同","成交率")
+
+
+```
+
+
