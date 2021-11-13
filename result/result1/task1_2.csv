@@ -1,0 +1,157 @@
+"地区","国家","服务分类","销售额","利润"
+"Eastern","Burundi","Commercial",1228.37,59.18
+"Eastern","Burundi","Public",3720.01,26.96
+"Eastern","Burundi","Residential",3439.32,55.53
+"Eastern","Djibouti","Commercial",1262.47,-34.11
+"Eastern","Djibouti","Public",3072.92,21.12
+"Eastern","Djibouti","Residential",5001.87,-0.75
+"Eastern","Eritrea","Commercial",5132.64,118.3
+"Eastern","Eritrea","Public",1368.24,-10.83
+"Eastern","Eritrea","Residential",2221.96,-35.75
+"Eastern","Ethiopia","Commercial",5442.21,207.2
+"Eastern","Ethiopia","Public",1491.52,-20.7
+"Eastern","Ethiopia","Residential",1260.73,23.77
+"Eastern","Kenya","Commercial",759.18,-15.18
+"Eastern","Kenya","Public",3446.99,-18.05
+"Eastern","Kenya","Residential",4462.54,12.05
+"Eastern","Madagascar","Commercial",1896.94,93.7
+"Eastern","Madagascar","Public",4080.43,-181.84
+"Eastern","Madagascar","Residential",3001.75,91.25
+"Eastern","Malawi","Commercial",5498.86,189.19
+"Eastern","Malawi","Public",4391.86,-37.38
+"Eastern","Malawi","Residential",7284.15,168.37
+"Eastern","Mauritius","Commercial",2269.66,48.03
+"Eastern","Mauritius","Public",2953.99,31.48
+"Eastern","Mauritius","Residential",442.97,44.3
+"Eastern","Mozambique","Commercial",3132.27,56.38
+"Eastern","Mozambique","Public",3784.14,42.63
+"Eastern","Mozambique","Residential",2591.4,47.21
+"Eastern","Rwanda","Commercial",2324.68,-70.25
+"Eastern","Rwanda","Public",3831.17,97.62
+"Eastern","Rwanda","Residential",1876.24,-8.46
+"Eastern","Seychelles","Commercial",2691.15,-76.61
+"Eastern","Seychelles","Public",1887.81,-16.49
+"Eastern","Seychelles","Residential",1324.06,-50.84
+"Eastern","Somalia","Commercial",3477.32,198.65
+"Eastern","Somalia","Public",3581.78,97.64
+"Eastern","Somalia","Residential",1173.77,13.33
+"Eastern","South Sudan","Commercial",619.94,-49.6
+"Eastern","South Sudan","Public",3397.94,-73.37
+"Eastern","South Sudan","Residential",3746.8,110.16
+"Eastern","Uganda","Commercial",1354.36,-48.25
+"Eastern","Uganda","Public",2155.31,15.39
+"Eastern","Uganda","Residential",4732.12,138.16
+"Eastern","United Republic of Tanzania","Commercial",2145.58,-9.54
+"Eastern","United Republic of Tanzania","Public",1984.63,53.25
+"Eastern","United Republic of Tanzania","Residential",2426.87,-60.67
+"Eastern","Zambia","Commercial",2133.39,-49.68
+"Eastern","Zambia","Public",2318.07,-7.71
+"Eastern","Zambia","Residential",2799.2,68.5
+"Eastern","Zimbabwe","Commercial",3547.62,-44.05
+"Eastern","Zimbabwe","Public",1734.06,9.68
+"Eastern","Zimbabwe","Residential",3001.64,-67.87
+"Middle","Angola","Commercial",2740.6,46.82
+"Middle","Angola","Public",1732.64,-15.18
+"Middle","Angola","Residential",1607.85,117.7
+"Middle","Cameroon","Commercial",4903.66,70.1
+"Middle","Cameroon","Public",9113.23,154.83
+"Middle","Cameroon","Residential",2524.43,18.8
+"Middle","Central African Republic","Commercial",2020.46,61.55
+"Middle","Central African Republic","Public",1257,40.86
+"Middle","Central African Republic","Residential",4873.24,43.87
+"Middle","Chad","Commercial",1937.34,33.26
+"Middle","Chad","Public",1881.24,22.63
+"Middle","Chad","Residential",1463.34,107.51
+"Middle","Congo","Commercial",3842.5,24.59
+"Middle","Congo","Public",399.89,-8.9
+"Middle","Congo","Residential",4462.09,65.97
+"Middle","Democratic Republic of the Congo","Commercial",10368.3,225.69
+"Middle","Democratic Republic of the Congo","Public",6738.43,69.01
+"Middle","Democratic Republic of the Congo","Residential",6694.92,123.62
+"Middle","Equatorial Guinea","Commercial",3334.69,-32.71
+"Middle","Equatorial Guinea","Public",1561.23,19
+"Middle","Equatorial Guinea","Residential",3436.09,91.75
+"Middle","Gabon","Commercial",3506.61,-53.22
+"Middle","Gabon","Public",2137.21,103.59
+"Middle","Gabon","Residential",3458.68,-51.81
+"Middle","Sao Tome and Principe","Commercial",3478.84,-16.79
+"Middle","Sao Tome and Principe","Public",1849.71,75.2
+"Middle","Sao Tome and Principe","Residential",3296.66,-28.02
+"Northern","Algeria","Commercial",3219.03,66.85
+"Northern","Algeria","Public",1598.09,-0.41
+"Northern","Algeria","Residential",3524.81,-45.98
+"Northern","Egypt","Commercial",2925.01,36.05
+"Northern","Egypt","Public",1066.42,40.33
+"Northern","Egypt","Residential",3402.52,65.83
+"Northern","Libya","Commercial",1108.1,-42.5
+"Northern","Libya","Public",2185.67,49.86
+"Northern","Libya","Residential",3531.65,185.09
+"Northern","Morocco","Commercial",1184,-43.89
+"Northern","Morocco","Public",3937.43,61.43
+"Northern","Morocco","Residential",855.42,51.33
+"Northern","Sudan","Commercial",3112.16,31.58
+"Northern","Sudan","Public",6391.86,26.82
+"Northern","Sudan","Residential",7508.47,175.68
+"Northern","Tunisia","Commercial",4345.82,89.38
+"Northern","Tunisia","Public",996.48,82.73
+"Northern","Tunisia","Residential",2166.26,123.16
+"Northern","Western Sahara","Commercial",2517.11,98.8
+"Northern","Western Sahara","Public",2574.79,132.61
+"Northern","Western Sahara","Residential",2068.49,38.64
+"Southern","Botswana","Commercial",3500.5,211.49
+"Southern","Botswana","Public",1972.46,-55.34
+"Southern","Botswana","Residential",2460.67,7.41999999999999
+"Southern","Lesotho","Commercial",3753.59,172.95
+"Southern","Lesotho","Public",2046.25,32.82
+"Southern","Lesotho","Residential",1618.53,60.57
+"Southern","Namibia","Commercial",1989.49,82.96
+"Southern","Namibia","Public",2400.38,61.19
+"Southern","Namibia","Residential",4515.59,-67.71
+"Southern","South Africa","Commercial",12123.22,33.61
+"Southern","South Africa","Public",8349.64,283.64
+"Southern","South Africa","Residential",16227.47,80.98
+"Southern","Swaziland","Commercial",1168.69,49.58
+"Southern","Swaziland","Public",2907.04,139.63
+"Southern","Swaziland","Residential",5344.29,1.70999999999999
+"Western","Benin","Commercial",7638.34,27.98
+"Western","Benin","Public",3563.42,-55.87
+"Western","Benin","Residential",5778.2,186.71
+"Western","Burkina Faso","Commercial",2913.41,-20.03
+"Western","Burkina Faso","Public",5391.66,-15.99
+"Western","Burkina Faso","Residential",1716.29,-74.98
+"Western","Cote d'Ivoire","Commercial",8097.54,-181.28
+"Western","Cote d'Ivoire","Public",3525.87,-30.25
+"Western","Cote d'Ivoire","Residential",6444.43,96.51
+"Western","Ghana","Commercial",4214.78,-42.51
+"Western","Ghana","Public",5427.43,301.99
+"Western","Ghana","Residential",6444.12,-58.68
+"Western","Guinea","Commercial",2310.23,-57.02
+"Western","Guinea","Public",4084.9,-9.8
+"Western","Guinea","Residential",197.63,1.98
+"Western","Guinea-Bissau","Commercial",3306.67,61.25
+"Western","Guinea-Bissau","Public",2211.85,59.42
+"Western","Guinea-Bissau","Residential",1396.21,81.49
+"Western","Liberia","Commercial",1121.54,-25.46
+"Western","Liberia","Public",1542.08,1.04000000000001
+"Western","Liberia","Residential",3968.72,-109.01
+"Western","Mali","Commercial",3129.2,-50.36
+"Western","Mali","Public",434.05,-25.64
+"Western","Mali","Residential",2669.3,93.09
+"Western","Mauritania","Commercial",3426.34,131.16
+"Western","Mauritania","Public",2900.23,46.35
+"Western","Mauritania","Residential",2746.04,122.12
+"Western","Niger","Commercial",4088.75,-84.85
+"Western","Niger","Public",3215.12,-139.65
+"Western","Niger","Residential",2279.28,5.14000000000001
+"Western","Nigeria","Commercial",7782.8,103.5
+"Western","Nigeria","Public",12603.39,-162.1
+"Western","Nigeria","Residential",9594.12,145.84
+"Western","Senegal","Commercial",3265.29,40.54
+"Western","Senegal","Public",1406.66,-32.53
+"Western","Senegal","Residential",770.62,19.21
+"Western","Sierra Leone","Commercial",2974.58,11.79
+"Western","Sierra Leone","Public",2423.89,-21.9
+"Western","Sierra Leone","Residential",1694.66,-7.2
+"Western","Togo","Commercial",2408.23,-75.79
+"Western","Togo","Public",2498.14,-80.62
+"Western","Togo","Residential",1782.39,68.71

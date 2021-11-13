@@ -1,0 +1,625 @@
+"年度","地区","国家","服务分类","各国销售额","销售增长率","各国利润","利润增长率"
+"2017","Eastern","Burundi","Commercial",928.07,0,74.25,0
+"2018","Eastern","Burundi","Commercial",0,-1,0,1
+"2019","Eastern","Burundi","Commercial",118.96,0,-2.38,0
+"2020","Eastern","Burundi","Commercial",181.34,0.524377942165434,-12.69,-4.33193277310924
+"2017","Eastern","Burundi","Public",1052.36,0,-3.46,0
+"2018","Eastern","Burundi","Public",757.23,-0.280445855030598,0,1
+"2019","Eastern","Burundi","Public",865.69,0.143232571345562,51.94,0
+"2020","Eastern","Burundi","Public",1044.73,0.206817683004309,-21.52,1.41432422025414
+"2017","Eastern","Burundi","Residential",0,0,0,0
+"2018","Eastern","Burundi","Residential",1466.48,0,-24.97,0
+"2019","Eastern","Burundi","Residential",1646.5,0.12275653264961,47.87,2.91710052062475
+"2020","Eastern","Burundi","Residential",326.34,-0.801797752808989,32.63,0.318362231042406
+"2017","Eastern","Djibouti","Commercial",885.22,0,-26.56,0
+"2018","Eastern","Djibouti","Commercial",0,-1,0,1
+"2019","Eastern","Djibouti","Commercial",0,0,0,0
+"2020","Eastern","Djibouti","Commercial",377.25,0,-7.55,0
+"2017","Eastern","Djibouti","Public",0,0,0,0
+"2018","Eastern","Djibouti","Public",0,0,0,0
+"2019","Eastern","Djibouti","Public",1747.89,0,-13.97,0
+"2020","Eastern","Djibouti","Public",1325.03,-0.241925979323642,35.09,3.51181102362205
+"2017","Eastern","Djibouti","Residential",2119.85,0,13.9,0
+"2018","Eastern","Djibouti","Residential",1929.17,-0.0899497605962686,13.94,-0.00287769784172681
+"2019","Eastern","Djibouti","Residential",952.85,-0.506082926854554,-28.59,3.05093256814921
+"2020","Eastern","Djibouti","Residential",0,-1,0,1
+"2017","Eastern","Eritrea","Commercial",791.98,0,7.92,0
+"2018","Eastern","Eritrea","Commercial",1960.37,1.47527715346347,90.48,-10.4242424242424
+"2019","Eastern","Eritrea","Commercial",632.31,-0.677453745976525,53.13,0.412798408488064
+"2020","Eastern","Eritrea","Commercial",1747.98,1.76443516629501,-33.23,1.62544701675136
+"2017","Eastern","Eritrea","Public",196.57,0,13.76,0
+"2018","Eastern","Eritrea","Public",0,-1,0,1
+"2019","Eastern","Eritrea","Public",326.44,0,26.12,0
+"2020","Eastern","Eritrea","Public",845.23,1.58923538782012,-50.71,2.94142419601838
+"2017","Eastern","Eritrea","Residential",1012.65,0,-35.84,0
+"2018","Eastern","Eritrea","Residential",699.51,-0.309228262479633,-7,0.8046875
+"2019","Eastern","Eritrea","Residential",199.16,-0.715286414776058,3.98,1.56857142857143
+"2020","Eastern","Eritrea","Residential",310.64,0.559750954006829,3.11,0.218592964824121
+"2017","Eastern","Ethiopia","Commercial",600.36,0,6,0
+"2018","Eastern","Ethiopia","Commercial",1799.79,1.99785128922646,140.11,-22.3516666666667
+"2019","Eastern","Ethiopia","Commercial",1519.17,-0.155918190455553,67.59,0.517593319534651
+"2020","Eastern","Ethiopia","Commercial",1522.89,0.00244870554315845,-6.5,1.09616807220003
+"2017","Eastern","Ethiopia","Public",404.76,0,-22.47,0
+"2018","Eastern","Ethiopia","Public",751.02,0.855469908093685,-15.02,0.331553182020472
+"2019","Eastern","Ethiopia","Public",0,-1,0,1
+"2020","Eastern","Ethiopia","Public",335.74,0,16.79,0
+"2017","Eastern","Ethiopia","Residential",509.93,0,10.2,0
+"2018","Eastern","Ethiopia","Residential",0,-1,0,1
+"2019","Eastern","Ethiopia","Residential",447.81,0,4.48,0
+"2020","Eastern","Ethiopia","Residential",302.99,-0.323396083160269,9.09,-1.02901785714286
+"2017","Eastern","Kenya","Commercial",0,0,0,0
+"2018","Eastern","Kenya","Commercial",0,0,0,0
+"2019","Eastern","Kenya","Commercial",759.18,0,-15.18,0
+"2020","Eastern","Kenya","Commercial",0,-1,0,1
+"2017","Eastern","Kenya","Public",341.57,0,-10.25,0
+"2018","Eastern","Kenya","Public",1409.44,3.12635770120327,-0.210000000000002,0.979512195121951
+"2019","Eastern","Kenya","Public",344.77,-0.755385117493473,-13.79,-64.6666666666661
+"2020","Eastern","Kenya","Public",1351.21,2.91916350030455,6.2,1.44960116026106
+"2017","Eastern","Kenya","Residential",1968.5,0,-19.93,0
+"2018","Eastern","Kenya","Residential",391.21,-0.801264922529845,-23.47,-0.177621675865529
+"2019","Eastern","Kenya","Residential",1188.39,2.03772909690448,42.65,2.81721346399659
+"2020","Eastern","Kenya","Residential",914.44,-0.230521966694435,12.8,0.699882766705744
+"2017","Eastern","Madagascar","Commercial",157.77,0,-4.73,0
+"2018","Eastern","Madagascar","Commercial",0,-1,0,1
+"2019","Eastern","Madagascar","Commercial",1138.96,0,104.43,0
+"2020","Eastern","Madagascar","Commercial",600.21,-0.47301924562759,-6,1.05745475438092
+"2017","Eastern","Madagascar","Public",875.94,0,-70.08,0
+"2018","Eastern","Madagascar","Public",1752.36,1.00054798273854,-97.23,-0.387414383561644
+"2019","Eastern","Madagascar","Public",1116.92,-0.362619553059874,-4.47,0.954026535020056
+"2020","Eastern","Madagascar","Public",335.21,-0.699880027217706,-10.06,-1.25055928411633
+"2017","Eastern","Madagascar","Residential",1735.3,0,22.17,0
+"2018","Eastern","Madagascar","Residential",924.49,-0.467244856797096,38.81,-0.750563824988723
+"2019","Eastern","Madagascar","Residential",0,-1,0,1
+"2020","Eastern","Madagascar","Residential",341.96,0,30.27,0
+"2017","Eastern","Malawi","Commercial",956.18,0,43.44,0
+"2018","Eastern","Malawi","Commercial",2425.37,1.53652032044176,135.01,-2.1079650092081
+"2019","Eastern","Malawi","Commercial",1276.61,-0.473643196708131,6.57,0.951336938004592
+"2020","Eastern","Malawi","Commercial",840.7,-0.341459020374273,4.17,0.365296803652968
+"2017","Eastern","Malawi","Public",958.49,0,-60.7,0
+"2018","Eastern","Malawi","Public",753.87,-0.213481622134816,-37.69,0.379077429983526
+"2019","Eastern","Malawi","Public",1562.11,1.07212118800324,91.51,3.4279649774476
+"2020","Eastern","Malawi","Public",1117.39,-0.284691859088028,-30.5,1.33329690744181
+"2017","Eastern","Malawi","Residential",2348.27,0,71.65,0
+"2018","Eastern","Malawi","Residential",2257.24,-0.0387647076358339,8.97,0.874808094905792
+"2019","Eastern","Malawi","Residential",897.9,-0.602213322464603,8.78,0.0211817168338907
+"2020","Eastern","Malawi","Residential",1780.74,0.983227530905446,78.97,-7.99430523917995
+"2017","Eastern","Mauritius","Commercial",512.94,0,25.65,0
+"2018","Eastern","Mauritius","Commercial",708.1,0.380473349709518,27.1,-0.0565302144249514
+"2019","Eastern","Mauritius","Commercial",387.66,-0.452534952690298,-23.26,1.85830258302583
+"2020","Eastern","Mauritius","Commercial",660.96,0.704999226125987,18.54,1.79707652622528
+"2017","Eastern","Mauritius","Public",1608.48,0,-51.6,0
+"2018","Eastern","Mauritius","Public",0,-1,0,1
+"2019","Eastern","Mauritius","Public",486.07,0,14.32,0
+"2020","Eastern","Mauritius","Public",859.44,0.768140391301665,68.76,-3.80167597765363
+"2017","Eastern","Mauritius","Residential",0,0,0,0
+"2018","Eastern","Mauritius","Residential",442.97,0,44.3,0
+"2019","Eastern","Mauritius","Residential",0,-1,0,1
+"2020","Eastern","Mauritius","Residential",0,0,0,0
+"2017","Eastern","Mozambique","Commercial",0,0,0,0
+"2018","Eastern","Mozambique","Commercial",393.33,0,35.4,0
+"2019","Eastern","Mozambique","Commercial",1932.47,3.9131009584827,-59.67,2.68559322033898
+"2020","Eastern","Mozambique","Commercial",806.47,-0.582673987177032,80.65,2.35160046924753
+"2017","Eastern","Mozambique","Public",540.73,0,24.81,0
+"2018","Eastern","Mozambique","Public",1737.28,2.21284189891443,23.38,0.0576380491737203
+"2019","Eastern","Mozambique","Public",783.49,-0.549013400257874,0,1
+"2020","Eastern","Mozambique","Public",722.64,-0.0776653180002296,-5.56,0
+"2017","Eastern","Mozambique","Residential",1108.79,0,-9.94,0
+"2018","Eastern","Mozambique","Residential",0,-1,0,1
+"2019","Eastern","Mozambique","Residential",549.94,0,38.5,0
+"2020","Eastern","Mozambique","Residential",932.67,0.695948648943521,18.65,0.515584415584416
+"2017","Eastern","Rwanda","Commercial",322.84,0,-9.69,0
+"2018","Eastern","Rwanda","Commercial",0,-1,0,1
+"2019","Eastern","Rwanda","Commercial",1106.6,0,11.06,0
+"2020","Eastern","Rwanda","Commercial",895.24,-0.190999457798663,-71.62,7.4755877034358
+"2017","Eastern","Rwanda","Public",1259.25,0,27.52,0
+"2018","Eastern","Rwanda","Public",1081.68,-0.141012507444908,49.59,-0.801962209302326
+"2019","Eastern","Rwanda","Public",472.24,-0.563419865394571,-37.78,1.76184714660214
+"2020","Eastern","Rwanda","Public",1018,1.15568355073691,58.29,2.5428798305982
+"2017","Eastern","Rwanda","Residential",0,0,0,0
+"2018","Eastern","Rwanda","Residential",1332.8,0,-41.07,0
+"2019","Eastern","Rwanda","Residential",543.44,-0.592256902761104,32.61,1.79401022644266
+"2020","Eastern","Rwanda","Residential",0,-1,0,1
+"2017","Eastern","Seychelles","Commercial",0,0,0,0
+"2018","Eastern","Seychelles","Commercial",1102.22,0,-24.77,0
+"2019","Eastern","Seychelles","Commercial",1233.59,0.119186732231315,-85.49,-2.45135244247073
+"2020","Eastern","Seychelles","Commercial",355.34,-0.711946432769397,33.65,1.39361328810387
+"2017","Eastern","Seychelles","Public",1493.29,0,-23.07,0
+"2018","Eastern","Seychelles","Public",260.78,-0.82536546819439,-5.46,0.76332899869961
+"2019","Eastern","Seychelles","Public",0,-1,0,1
+"2020","Eastern","Seychelles","Public",133.74,0,12.04,0
+"2017","Eastern","Seychelles","Residential",130.9,0,-6.14,0
+"2018","Eastern","Seychelles","Residential",0,-1,0,1
+"2019","Eastern","Seychelles","Residential",733.04,0,-30.9,0
+"2020","Eastern","Seychelles","Residential",460.12,-0.372312561388192,-13.8,0.553398058252427
+"2017","Eastern","Somalia","Commercial",1342.12,0,46.7,0
+"2018","Eastern","Somalia","Commercial",328.62,-0.755148570917653,32.86,0.296359743040685
+"2019","Eastern","Somalia","Commercial",1428.33,3.34644878583166,81.27,-1.47321972002435
+"2020","Eastern","Somalia","Commercial",378.25,-0.735180245461483,37.82,0.534637627660883
+"2017","Eastern","Somalia","Public",977.28,0,-9.77,0
+"2018","Eastern","Somalia","Public",947.2,-0.0307793058284217,47.36,5.8474923234391
+"2019","Eastern","Somalia","Public",799.28,-0.156165540540541,-17.17,1.36254222972973
+"2020","Eastern","Somalia","Public",858.02,0.0734911420278251,77.22,5.49737914967967
+"2017","Eastern","Somalia","Residential",320.9,0,-19.25,0
+"2018","Eastern","Somalia","Residential",545.06,0.698535369273917,38.74,3.01246753246753
+"2019","Eastern","Somalia","Residential",0,-1,0,1
+"2020","Eastern","Somalia","Residential",307.81,0,-6.16,0
+"2017","Eastern","South Sudan","Commercial",0,0,0,0
+"2018","Eastern","South Sudan","Commercial",0,0,0,0
+"2019","Eastern","South Sudan","Commercial",619.94,0,-49.6,0
+"2020","Eastern","South Sudan","Commercial",0,-1,0,1
+"2017","Eastern","South Sudan","Public",969.48,0,-59.83,0
+"2018","Eastern","South Sudan","Public",0,-1,0,1
+"2019","Eastern","South Sudan","Public",1088.7,0,-16.06,0
+"2020","Eastern","South Sudan","Public",1339.76,0.230605309084229,2.52,1.15691158156912
+"2017","Eastern","South Sudan","Residential",372.63,0,-22.36,0
+"2018","Eastern","South Sudan","Residential",2214.43,4.9427045594826,129.71,6.80098389982111
+"2019","Eastern","South Sudan","Residential",720.2,-0.674769579530624,-21.61,1.16660242078483
+"2020","Eastern","South Sudan","Residential",439.54,-0.389697306303805,24.42,2.13003239241092
+"2017","Eastern","Uganda","Commercial",284.57,0,2.85,0
+"2018","Eastern","Uganda","Commercial",239.4,-0.158730716519661,-9.58,4.36140350877193
+"2019","Eastern","Uganda","Commercial",830.39,2.46862990810359,-41.52,-3.33402922755741
+"2020","Eastern","Uganda","Commercial",0,-1,0,1
+"2017","Eastern","Uganda","Public",817.49,0,-48.58,0
+"2018","Eastern","Uganda","Public",202.35,-0.75247403637965,14.16,1.29147797447509
+"2019","Eastern","Uganda","Public",455.3,1.25006177415369,-18.21,2.28601694915254
+"2020","Eastern","Uganda","Public",680.17,0.49389413573468,68.02,4.73531026908292
+"2017","Eastern","Uganda","Residential",983.55,0,19.67,0
+"2018","Eastern","Uganda","Residential",1330.8,0.353057800823548,25.27,-0.284697508896797
+"2019","Eastern","Uganda","Residential",615.11,-0.537789299669372,24.47,0.0316580925999207
+"2020","Eastern","Uganda","Residential",1802.66,1.93063029376859,68.75,-1.80956272987331
+"2017","Eastern","United Republic of Tanzania","Commercial",401.85,0,4.02,0
+"2018","Eastern","United Republic of Tanzania","Commercial",576.67,0.435037949483638,0.06,0.985074626865672
+"2019","Eastern","United Republic of Tanzania","Commercial",1167.06,1.02379176998977,-13.62,228
+"2020","Eastern","United Republic of Tanzania","Commercial",0,-1,0,1
+"2017","Eastern","United Republic of Tanzania","Public",630.59,0,19.05,0
+"2018","Eastern","United Republic of Tanzania","Public",507.98,-0.194436955866728,-25.02,2.31338582677165
+"2019","Eastern","United Republic of Tanzania","Public",846.06,0.66553801330761,59.22,3.36690647482014
+"2020","Eastern","United Republic of Tanzania","Public",0,-1,0,1
+"2017","Eastern","United Republic of Tanzania","Residential",232.27,0,-2.32,0
+"2018","Eastern","United Republic of Tanzania","Residential",0,-1,0,1
+"2019","Eastern","United Republic of Tanzania","Residential",98.4,0,3.94,0
+"2020","Eastern","United Republic of Tanzania","Residential",2096.2,20.3028455284553,-62.29,16.8096446700508
+"2017","Eastern","Zambia","Commercial",222.26,0,20,0
+"2018","Eastern","Zambia","Commercial",371.36,0.670835957887159,-29.71,2.4855
+"2019","Eastern","Zambia","Commercial",0,-1,0,1
+"2020","Eastern","Zambia","Commercial",1539.77,0,-39.97,0
+"2017","Eastern","Zambia","Public",1105.65,0,-39.8,0
+"2018","Eastern","Zambia","Public",0,-1,0,1
+"2019","Eastern","Zambia","Public",1128.39,0,35.17,0
+"2020","Eastern","Zambia","Public",84.03,-0.925531066386622,-3.08,1.08757463747512
+"2017","Eastern","Zambia","Residential",627.11,0,37.63,0
+"2018","Eastern","Zambia","Residential",1351.24,1.15470970005262,-26.59,1.7066170608557
+"2019","Eastern","Zambia","Residential",820.85,-0.392520943725763,57.46,3.16096276795788
+"2020","Eastern","Zambia","Residential",0,-1,0,1
+"2017","Eastern","Zimbabwe","Commercial",231.41,0,-4.63,0
+"2018","Eastern","Zimbabwe","Commercial",1734.71,6.49626204571972,5.52,2.19222462203024
+"2019","Eastern","Zimbabwe","Commercial",1179.71,-0.31993820292729,-44.94,9.14130434782608
+"2020","Eastern","Zimbabwe","Commercial",401.79,-0.659416297225589,0,1
+"2017","Eastern","Zimbabwe","Public",0,0,0,0
+"2018","Eastern","Zimbabwe","Public",979.48,0,0.69,0
+"2019","Eastern","Zimbabwe","Public",574.87,-0.413086535712827,0,1
+"2020","Eastern","Zimbabwe","Public",179.71,-0.687390192565276,8.99,0
+"2017","Eastern","Zimbabwe","Residential",1718.81,0,-70.54,0
+"2018","Eastern","Zimbabwe","Residential",0,-1,0,1
+"2019","Eastern","Zimbabwe","Residential",438.85,0,26.33,0
+"2020","Eastern","Zimbabwe","Residential",843.98,0.923162811894725,-23.66,1.89859475883023
+"2017","Middle","Angola","Commercial",0,0,0,0
+"2018","Middle","Angola","Commercial",737.95,0,-23.98,0
+"2019","Middle","Angola","Commercial",1124.46,0.52376177247781,9.33,1.38907422852377
+"2020","Middle","Angola","Commercial",878.19,-0.219011792326984,61.47,-5.58842443729903
+"2017","Middle","Angola","Public",670.01,0,47.53,0
+"2018","Middle","Angola","Public",624.65,-0.067700482082357,-39.62,1.83357879234168
+"2019","Middle","Angola","Public",39.8,-0.936284319218763,-3.18,0.919737506309944
+"2020","Middle","Angola","Public",398.18,9.00452261306533,-19.91,-5.26100628930818
+"2017","Middle","Angola","Residential",781.45,0,76.29,0
+"2018","Middle","Angola","Residential",0,-1,0,1
+"2019","Middle","Angola","Residential",0,0,0,0
+"2020","Middle","Angola","Residential",826.4,0,41.41,0
+"2017","Middle","Cameroon","Commercial",52.91,0,2.12,0
+"2018","Middle","Cameroon","Commercial",187.34,2.54072954072954,-3.75,2.7688679245283
+"2019","Middle","Cameroon","Commercial",2162.02,10.5406213302018,-7.02,-0.872
+"2020","Middle","Cameroon","Commercial",2501.39,0.15696894570818,78.75,12.2179487179487
+"2017","Middle","Cameroon","Public",3886.82,0,63.06,0
+"2018","Middle","Cameroon","Public",2269.81,-0.416023896141319,-13.25,1.21011734855693
+"2019","Middle","Cameroon","Public",1550.11,-0.317074997466748,73.39,6.5388679245283
+"2020","Middle","Cameroon","Public",1406.49,-0.0926514892491501,31.63,0.569014852159695
+"2017","Middle","Cameroon","Residential",466.81,0,-23.34,0
+"2018","Middle","Cameroon","Residential",542.43,0.161993102118635,-43.39,-0.859040274207369
+"2019","Middle","Cameroon","Residential",977.32,0.801744003834596,58.64,2.35146347084582
+"2020","Middle","Cameroon","Residential",537.87,-0.449648017026153,26.89,0.54143929058663
+"2017","Middle","Central African Republic","Commercial",1425.38,0,55.6,0
+"2018","Middle","Central African Republic","Commercial",0,-1,0,1
+"2019","Middle","Central African Republic","Commercial",595.08,0,5.95,0
+"2020","Middle","Central African Republic","Commercial",0,-1,0,1
+"2017","Middle","Central African Republic","Public",76.46,0,3.82,0
+"2018","Middle","Central African Republic","Public",669.9,7.76144389223123,33.5,-7.7696335078534
+"2019","Middle","Central African Republic","Public",168.78,-0.748051948051948,-10.13,1.30238805970149
+"2020","Middle","Central African Republic","Public",341.86,1.02547695224553,13.67,2.34945705824284
+"2017","Middle","Central African Republic","Residential",363.3,0,7.27,0
+"2018","Middle","Central African Republic","Residential",1597.7,3.39774291219378,-50.37,7.92847317744154
+"2019","Middle","Central African Republic","Residential",1205.56,-0.245440320460662,93.62,2.85864601945603
+"2020","Middle","Central African Republic","Residential",1706.68,0.415674043597996,-6.65,1.07103183080538
+"2017","Middle","Chad","Commercial",1267.88,0,33.23,0
+"2018","Middle","Chad","Commercial",668.57,-0.472686689592075,0,1
+"2019","Middle","Chad","Commercial",0,-1,0,0
+"2020","Middle","Chad","Commercial",0.89,0,0.03,0
+"2017","Middle","Chad","Public",0,0,0,0
+"2018","Middle","Chad","Public",1103.84,0,22.08,0
+"2019","Middle","Chad","Public",320.68,-0.709486882156834,-17.72,1.80253623188406
+"2020","Middle","Chad","Public",456.72,0.424223525009355,18.27,2.03103837471783
+"2017","Middle","Chad","Residential",0,0,0,0
+"2018","Middle","Chad","Residential",432.43,0,30.27,0
+"2019","Middle","Chad","Residential",585.48,0.353930115856902,38.04,-0.256689791873142
+"2020","Middle","Chad","Residential",445.43,-0.23920543827287,39.2,-0.0304942166140903
+"2017","Middle","Congo","Commercial",789.45,0,-33.83,0
+"2018","Middle","Congo","Commercial",1022.56,0.29528152511242,-6.55,0.80638486550399
+"2019","Middle","Congo","Commercial",1495.35,0.462359176967611,91.73,15.0045801526718
+"2020","Middle","Congo","Commercial",535.14,-0.642130604875113,-26.76,1.2917257167775
+"2017","Middle","Congo","Public",0,0,0,0
+"2018","Middle","Congo","Public",59.11,0,4.73,0
+"2019","Middle","Congo","Public",0,-1,0,1
+"2020","Middle","Congo","Public",340.78,0,-13.63,0
+"2017","Middle","Congo","Residential",1675.54,0,10.59,0
+"2018","Middle","Congo","Residential",983.19,-0.413210069589505,78.66,-6.42776203966005
+"2019","Middle","Congo","Residential",641.22,-0.347816800414976,-6.41,1.081489956776
+"2020","Middle","Congo","Residential",1162.14,0.812388883690465,-16.87,-1.63182527301092
+"2017","Middle","Democratic Republic of the Congo","Commercial",3316.82,0,147.99,0
+"2018","Middle","Democratic Republic of the Congo","Commercial",1545.94,-0.533908985112246,21.23,0.85654436110548
+"2019","Middle","Democratic Republic of the Congo","Commercial",2549.84,0.649378371734996,76.61,-2.60857277437588
+"2020","Middle","Democratic Republic of the Congo","Commercial",2955.7,0.159170771499388,-20.14,1.26288996214593
+"2017","Middle","Democratic Republic of the Congo","Public",1822.22,0,-13.62,0
+"2018","Middle","Democratic Republic of the Congo","Public",2705.73,0.484853640065415,-16.67,-0.223935389133627
+"2019","Middle","Democratic Republic of the Congo","Public",1685.96,-0.376892742439194,81.85,5.91001799640072
+"2020","Middle","Democratic Republic of the Congo","Public",524.52,-0.688889416119006,17.45,0.786805131337813
+"2017","Middle","Democratic Republic of the Congo","Residential",717.11,0,-1.81,0
+"2018","Middle","Democratic Republic of the Congo","Residential",1925.93,1.68568281016859,84.44,47.6519337016575
+"2019","Middle","Democratic Republic of the Congo","Residential",1099.84,-0.428930438800995,-17.71,1.20973472288015
+"2020","Middle","Democratic Republic of the Congo","Residential",2952.04,1.68406313645621,58.7,4.31451157538114
+"2017","Middle","Equatorial Guinea","Commercial",2033.74,0,-10.18,0
+"2018","Middle","Equatorial Guinea","Commercial",32.98,-0.983783571154622,-2.64,0.740667976424362
+"2019","Middle","Equatorial Guinea","Commercial",497.89,14.0967252880534,9.96,4.77272727272727
+"2020","Middle","Equatorial Guinea","Commercial",770.08,0.546687019221113,-29.85,3.99698795180723
+"2017","Middle","Equatorial Guinea","Public",0,0,0,0
+"2018","Middle","Equatorial Guinea","Public",1268.09,0,-10.31,0
+"2019","Middle","Equatorial Guinea","Public",0,-1,0,1
+"2020","Middle","Equatorial Guinea","Public",293.14,0,29.31,0
+"2017","Middle","Equatorial Guinea","Residential",996.56,0,9.97,0
+"2018","Middle","Equatorial Guinea","Residential",383.7,-0.614975515774263,23.02,-1.30892678034102
+"2019","Middle","Equatorial Guinea","Residential",1657.44,3.31962470680219,70.71,-2.07167680278019
+"2020","Middle","Equatorial Guinea","Residential",398.39,-0.759635341249155,-11.95,1.16900014142271
+"2017","Middle","Gabon","Commercial",1934.54,0,-36.99,0
+"2018","Middle","Gabon","Commercial",0,-1,0,1
+"2019","Middle","Gabon","Commercial",1272.35,0,7.75,0
+"2020","Middle","Gabon","Commercial",299.72,-0.764435886352026,-23.98,4.0941935483871
+"2017","Middle","Gabon","Public",952.76,0,38.11,0
+"2018","Middle","Gabon","Public",0,-1,0,1
+"2019","Middle","Gabon","Public",817.45,0,81.74,0
+"2020","Middle","Gabon","Public",367,-0.551042877240198,-16.26,1.19892341570834
+"2017","Middle","Gabon","Residential",914.72,0,0,0
+"2018","Middle","Gabon","Residential",1580.79,0.728168182613259,25.24,0
+"2019","Middle","Gabon","Residential",0,-1,0,1
+"2020","Middle","Gabon","Residential",963.17,0,-77.05,0
+"2017","Middle","Sao Tome and Principe","Commercial",923.82,0,10.88,0
+"2018","Middle","Sao Tome and Principe","Commercial",344,-0.627633088696932,10.32,0.051470588235294
+"2019","Middle","Sao Tome and Principe","Commercial",1880.85,4.46758720930233,-14.88,2.44186046511628
+"2020","Middle","Sao Tome and Principe","Commercial",330.17,-0.824457027407821,-23.11,-0.553091397849462
+"2017","Middle","Sao Tome and Principe","Public",921.82,0,55.31,0
+"2018","Middle","Sao Tome and Principe","Public",0,-1,0,1
+"2019","Middle","Sao Tome and Principe","Public",246.07,0,-7.38,0
+"2020","Middle","Sao Tome and Principe","Public",681.82,1.77083756654611,27.27,4.69512195121951
+"2017","Middle","Sao Tome and Principe","Residential",0,0,0,0
+"2018","Middle","Sao Tome and Principe","Residential",1477.23,0,-10,0
+"2019","Middle","Sao Tome and Principe","Residential",888.09,-0.398813996466359,-62.17,-5.217
+"2020","Middle","Sao Tome and Principe","Residential",931.34,0.0487000191422041,44.15,1.71014958983433
+"2017","Northern","Algeria","Commercial",1575.74,0,2.08,0
+"2018","Northern","Algeria","Commercial",1166.28,-0.259852513739576,69.54,-32.4326923076923
+"2019","Northern","Algeria","Commercial",477.01,-0.590998731007991,-4.77,1.0685936151855
+"2020","Northern","Algeria","Commercial",0,-1,0,1
+"2017","Northern","Algeria","Public",0,0,0,0
+"2018","Northern","Algeria","Public",902.45,0,-9.02,0
+"2019","Northern","Algeria","Public",0,-1,0,1
+"2020","Northern","Algeria","Public",695.64,0,8.61,0
+"2017","Northern","Algeria","Residential",1292.01,0,-21.8,0
+"2018","Northern","Algeria","Residential",0,-1,0,1
+"2019","Northern","Algeria","Residential",704.65,0,34.69,0
+"2020","Northern","Algeria","Residential",1528.15,1.16866529482722,-58.87,2.69703084462381
+"2017","Northern","Egypt","Commercial",1438.52,0,66.82,0
+"2018","Northern","Egypt","Commercial",0,-1,0,1
+"2019","Northern","Egypt","Commercial",979.71,0,-20.63,0
+"2020","Northern","Egypt","Commercial",506.78,-0.48272447969297,-10.14,0.508482792050412
+"2017","Northern","Egypt","Public",0,0,0,0
+"2018","Northern","Egypt","Public",120.75,0,1.21,0
+"2019","Northern","Egypt","Public",435.44,2.60612836438923,21.77,-16.9917355371901
+"2020","Northern","Egypt","Public",510.23,0.171757302957928,17.35,0.20303169499311
+"2017","Northern","Egypt","Residential",1205.74,0,74.22,0
+"2018","Northern","Egypt","Residential",1408.71,0.168336457279347,48.59,0.345324710320668
+"2019","Northern","Egypt","Residential",485.04,-0.655684988393637,-38.8,1.7985182136242
+"2020","Northern","Egypt","Residential",303.03,-0.375247402276101,-18.18,0.531443298969072
+"2017","Northern","Libya","Commercial",258.25,0,-15.5,0
+"2018","Northern","Libya","Commercial",0,-1,0,1
+"2019","Northern","Libya","Commercial",631.19,0,-23.96,0
+"2020","Northern","Libya","Commercial",218.66,-0.653574993266687,-3.04,0.873121869782972
+"2017","Northern","Libya","Public",587.33,0,-5.87,0
+"2018","Northern","Libya","Public",1164.18,0.982156538913388,38.36,7.53492333901192
+"2019","Northern","Libya","Public",434.16,-0.627067979178477,17.37,0.54718456725756
+"2020","Northern","Libya","Public",0,-1,0,1
+"2017","Northern","Libya","Residential",1467.55,0,61.54,0
+"2018","Northern","Libya","Residential",740.66,-0.495308507376239,74.07,-0.203607409814754
+"2019","Northern","Libya","Residential",807.85,0.0907163880863015,32.31,0.563791008505468
+"2020","Northern","Libya","Residential",515.59,-0.361775082007798,17.17,0.468585577220675
+"2017","Northern","Morocco","Commercial",703.93,0,-35.2,0
+"2018","Northern","Morocco","Commercial",43.55,-0.938133053002429,2.61,1.07414772727273
+"2019","Northern","Morocco","Commercial",252.03,4.78714121699196,-3.92,2.50191570881226
+"2020","Northern","Morocco","Commercial",184.49,-0.267983970162282,-7.38,-0.88265306122449
+"2017","Northern","Morocco","Public",1074.02,0,53.45,0
+"2018","Northern","Morocco","Public",483.2,-0.55010148786801,39.4,0.262862488306829
+"2019","Northern","Morocco","Public",1126.85,1.3320571192053,28.31,0.281472081218274
+"2020","Northern","Morocco","Public",1253.36,0.112268713670853,-59.73,3.10985517484988
+"2017","Northern","Morocco","Residential",855.42,0,51.33,0
+"2018","Northern","Morocco","Residential",0,-1,0,1
+"2019","Northern","Morocco","Residential",0,0,0,0
+"2020","Northern","Morocco","Residential",0,0,0,0
+"2017","Northern","Sudan","Commercial",541.59,0,43.33,0
+"2018","Northern","Sudan","Commercial",1530.16,1.82531065935486,8.83,0.796215093468728
+"2019","Northern","Sudan","Commercial",0,-1,0,1
+"2020","Northern","Sudan","Commercial",1040.41,0,-20.58,0
+"2017","Northern","Sudan","Public",813.04,0,-31.17,0
+"2018","Northern","Sudan","Public",1612.16,0.982879071140411,-31,0.00545396214308624
+"2019","Northern","Sudan","Public",1132.55,-0.297495285827709,52.85,2.70483870967742
+"2020","Northern","Sudan","Public",2834.11,1.50241490441923,36.14,0.316177861873226
+"2017","Northern","Sudan","Residential",1847.74,0,82.66,0
+"2018","Northern","Sudan","Residential",2042.15,0.105215019429141,65.54,0.207113476893298
+"2019","Northern","Sudan","Residential",2802.3,0.372230247533237,-13.33,1.20338724443088
+"2020","Northern","Sudan","Residential",816.28,-0.70871070192342,40.81,4.06151537884471
+"2017","Northern","Tunisia","Commercial",1707.93,0,-3.18,0
+"2018","Northern","Tunisia","Commercial",403.54,-0.763725679623872,36.32,12.4213836477987
+"2019","Northern","Tunisia","Commercial",1240.35,2.07367299400307,57.53,-0.58397577092511
+"2020","Northern","Tunisia","Commercial",994,-0.198613294634579,-1.29,1.02242308360855
+"2017","Northern","Tunisia","Public",701.35,0,56.11,0
+"2018","Northern","Tunisia","Public",0,-1,0,1
+"2019","Northern","Tunisia","Public",295.13,0,26.62,0
+"2020","Northern","Tunisia","Public",0,-1,0,1
+"2017","Northern","Tunisia","Residential",0,0,0,0
+"2018","Northern","Tunisia","Residential",1305.76,0,85.99,0
+"2019","Northern","Tunisia","Residential",0,-1,0,1
+"2020","Northern","Tunisia","Residential",860.5,0,37.17,0
+"2017","Northern","Western Sahara","Commercial",601.87,0,60.19,0
+"2018","Northern","Western Sahara","Commercial",1824.03,2.03060461561467,40.43,0.32829373650108
+"2019","Northern","Western Sahara","Commercial",0,-1,0,1
+"2020","Northern","Western Sahara","Commercial",91.21,0,-1.82,0
+"2017","Northern","Western Sahara","Public",1499.01,0,97.31,0
+"2018","Northern","Western Sahara","Public",0,-1,0,1
+"2019","Northern","Western Sahara","Public",514.71,0,7.25,0
+"2020","Northern","Western Sahara","Public",561.07,0.0900701365817645,28.05,-2.86896551724138
+"2017","Northern","Western Sahara","Residential",235.84,0,-2.36,0
+"2018","Northern","Western Sahara","Residential",216.43,-0.0823015603799186,-10.82,-3.58474576271187
+"2019","Northern","Western Sahara","Residential",1147.82,4.30342373977729,34.6,4.19778188539741
+"2020","Northern","Western Sahara","Residential",468.4,-0.591922078374658,17.22,0.502312138728324
+"2017","Southern","Botswana","Commercial",2488.64,0,174.11,0
+"2018","Southern","Botswana","Commercial",0,-1,0,1
+"2019","Southern","Botswana","Commercial",471.08,0,0,0
+"2020","Southern","Botswana","Commercial",540.78,0.147957884011208,37.38,0
+"2017","Southern","Botswana","Public",0,0,0,0
+"2018","Southern","Botswana","Public",627.64,0,19.91,0
+"2019","Southern","Botswana","Public",800.32,0.275125868332165,-48.02,3.41185334003014
+"2020","Southern","Botswana","Public",544.5,-0.319647141143543,-27.23,0.432944606413994
+"2017","Southern","Botswana","Residential",114.52,0,-3.44,0
+"2018","Southern","Botswana","Residential",1383.37,11.0797240656654,70.28,21.4302325581395
+"2019","Southern","Botswana","Residential",231.01,-0.83300924553807,-0.88,1.01252134319863
+"2020","Southern","Botswana","Residential",731.77,2.16769836803602,-58.54,-65.5227272727273
+"2017","Southern","Lesotho","Commercial",671.08,0,46.02,0
+"2018","Southern","Lesotho","Commercial",1113.23,0.658863324789891,48.86,-0.0617122990004345
+"2019","Southern","Lesotho","Commercial",769.9,-0.308408864295788,31.53,0.354686860417519
+"2020","Southern","Lesotho","Commercial",1199.38,0.557838680348097,46.54,-0.476054551221059
+"2017","Southern","Lesotho","Public",1091.71,0,58.2,0
+"2018","Southern","Lesotho","Public",635.88,-0.417537624460708,-50.87,1.87405498281787
+"2019","Southern","Lesotho","Public",0,-1,0,1
+"2020","Southern","Lesotho","Public",318.66,0,25.49,0
+"2017","Southern","Lesotho","Residential",0,0,0,0
+"2018","Southern","Lesotho","Residential",122.51,0,-7.35,0
+"2019","Southern","Lesotho","Residential",969.09,6.91029303730308,94.27,13.8258503401361
+"2020","Southern","Lesotho","Residential",526.93,-0.456263092179261,-26.35,1.27951628301687
+"2017","Southern","Namibia","Commercial",0,0,0,0
+"2018","Southern","Namibia","Commercial",84.09,0,-2.52,0
+"2019","Southern","Namibia","Commercial",927.03,10.0242597217267,46.35,19.3928571428571
+"2020","Southern","Namibia","Commercial",978.37,0.0553811635006419,39.13,0.155771305285868
+"2017","Southern","Namibia","Public",659.86,0,-6.6,0
+"2018","Southern","Namibia","Public",789.26,0.196102203497712,-27.34,-3.14242424242424
+"2019","Southern","Namibia","Public",0,-1,0,1
+"2020","Southern","Namibia","Public",951.26,0,95.13,0
+"2017","Southern","Namibia","Residential",1621.45,0,-1.23,0
+"2018","Southern","Namibia","Residential",234.66,-0.855277683554843,0,1
+"2019","Southern","Namibia","Residential",1937.6,7.2570527571806,-31.62,0
+"2020","Southern","Namibia","Residential",721.88,-0.627436003303055,-34.86,-0.102466793168881
+"2017","Southern","South Africa","Commercial",1629.68,0,73.72,0
+"2018","Southern","South Africa","Commercial",3558.94,1.18382749987728,101.72,-0.379815518176886
+"2019","Southern","South Africa","Commercial",3368.6,-0.0534822166150596,-11.48,1.11285882815572
+"2020","Southern","South Africa","Commercial",3566,0.0586000118743692,-130.35,-10.3545296167247
+"2017","Southern","South Africa","Public",2669.95,0,173.53,0
+"2018","Southern","South Africa","Public",2302.07,-0.137785351785614,1.01,0.994179680746845
+"2019","Southern","South Africa","Public",771.25,-0.664975435151842,-15.43,16.2772277227722
+"2020","Southern","South Africa","Public",2606.37,2.37941004862237,124.53,9.07064160725859
+"2017","Southern","South Africa","Residential",4843.61,0,-139.49,0
+"2018","Southern","South Africa","Residential",4780.49,-0.0130316024618002,245.48,2.75983941501183
+"2019","Southern","South Africa","Residential",4804.55,0.00503295687262193,-18.7,1.07617728531856
+"2020","Southern","South Africa","Residential",1798.82,-0.625600732638853,-6.31,0.662566844919786
+"2017","Southern","Swaziland","Commercial",0,0,0,0
+"2018","Southern","Swaziland","Commercial",0,0,0,0
+"2019","Southern","Swaziland","Commercial",0,0,0,0
+"2020","Southern","Swaziland","Commercial",1168.69,0,49.58,0
+"2017","Southern","Swaziland","Public",1460.45,0,9.44,0
+"2018","Southern","Swaziland","Public",1446.59,-0.0094902256153926,130.19,-12.791313559322
+"2019","Southern","Swaziland","Public",0,-1,0,1
+"2020","Southern","Swaziland","Public",0,0,0,0
+"2017","Southern","Swaziland","Residential",1345.6,0,-59.56,0
+"2018","Southern","Swaziland","Residential",1293.52,-0.0387039239001189,97,2.62860980523841
+"2019","Southern","Swaziland","Residential",1707.73,0.320219246706661,20.03,0.793505154639175
+"2020","Southern","Swaziland","Residential",997.44,-0.415926405227993,-55.76,3.78382426360459
+"2017","Western","Benin","Commercial",2099.6,0,46.72,0
+"2018","Western","Benin","Commercial",2179.07,0.0378500666793676,-35.12,1.75171232876712
+"2019","Western","Benin","Commercial",2056.53,-0.0562349993345787,19.07,1.54299544419134
+"2020","Western","Benin","Commercial",1303.14,-0.366340388907529,-2.69,1.14105925537493
+"2017","Western","Benin","Public",1726.25,0,-36.99,0
+"2018","Western","Benin","Public",902.23,-0.477346850108617,55.92,2.5117599351176
+"2019","Western","Benin","Public",0,-1,0,1
+"2020","Western","Benin","Public",934.94,0,-74.8,0
+"2017","Western","Benin","Residential",1282.29,0,88.48,0
+"2018","Western","Benin","Residential",343.36,-0.732229058949224,27.47,0.689534358047016
+"2019","Western","Benin","Residential",1894.26,4.51683364398882,91.12,-2.31707317073171
+"2020","Western","Benin","Residential",2258.29,0.192175308563766,-20.36,1.22344161545215
+"2017","Western","Burkina Faso","Commercial",745.22,0,-29.81,0
+"2018","Western","Burkina Faso","Commercial",953.96,0.280105203832425,28.62,1.96008050989601
+"2019","Western","Burkina Faso","Commercial",689.55,-0.277170950563965,7.39,0.741788958770091
+"2020","Western","Burkina Faso","Commercial",524.68,-0.239097962439272,-26.23,4.54939106901218
+"2017","Western","Burkina Faso","Public",951.96,0,7.7,0
+"2018","Western","Burkina Faso","Public",1603.14,0.684041346275053,70.81,-8.1961038961039
+"2019","Western","Burkina Faso","Public",1663.28,0.0375138790124382,-31.2,1.44061573224121
+"2020","Western","Burkina Faso","Public",1173.28,-0.294598624404791,-63.3,-1.02884615384615
+"2017","Western","Burkina Faso","Residential",638.38,0,-6.38,0
+"2018","Western","Burkina Faso","Residential",960.39,0.504417431623798,-76.83,-11.0423197492163
+"2019","Western","Burkina Faso","Residential",0,-1,0,1
+"2020","Western","Burkina Faso","Residential",117.52,0,8.23,0
+"2017","Western","Cote d'Ivoire","Commercial",1322.69,0,-29.23,0
+"2018","Western","Cote d'Ivoire","Commercial",3010.93,1.27636861244887,-105.07,-2.59459459459459
+"2019","Western","Cote d'Ivoire","Commercial",3165.88,0.0514625049403341,-65.72,0.374512229941943
+"2020","Western","Cote d'Ivoire","Commercial",598.04,-0.811098336007682,18.74,1.28514911746805
+"2017","Western","Cote d'Ivoire","Public",860.86,0,10.55,0
+"2018","Western","Cote d'Ivoire","Public",87.93,-0.897857955997491,5.28,0.499526066350711
+"2019","Western","Cote d'Ivoire","Public",1526.07,16.3555100648243,-32.34,7.125
+"2020","Western","Cote d'Ivoire","Public",1051.01,-0.311296336341059,-13.74,0.575139146567718
+"2017","Western","Cote d'Ivoire","Residential",2439.63,0,-125.15,0
+"2018","Western","Cote d'Ivoire","Residential",625.41,-0.743645552809237,30.62,1.24466640031962
+"2019","Western","Cote d'Ivoire","Residential",743.91,0.189475703938216,74.39,-1.42945787067276
+"2020","Western","Cote d'Ivoire","Residential",2635.48,2.54274038526166,116.65,-0.568087108482323
+"2017","Western","Ghana","Commercial",602.79,0,-7.31,0
+"2018","Western","Ghana","Commercial",1360.73,1.25738648617263,29.85,5.08344733242134
+"2019","Western","Ghana","Commercial",1513.49,0.11226327045042,-71.17,3.38425460636516
+"2020","Western","Ghana","Commercial",737.77,-0.512537248346537,6.12,1.08599128846424
+"2017","Western","Ghana","Public",974.04,0,49.92,0
+"2018","Western","Ghana","Public",1013.9,0.0409223440515791,99.04,-0.983974358974359
+"2019","Western","Ghana","Public",1789.12,0.764592168852944,99.54,-0.00504846526655897
+"2020","Western","Ghana","Public",1650.37,-0.0775520926489,53.49,0.462628089210368
+"2017","Western","Ghana","Residential",2028.62,0,-67.45,0
+"2018","Western","Ghana","Residential",1705.16,-0.159448294899981,-3.46,0.948702742772424
+"2019","Western","Ghana","Residential",1264.94,-0.258169321354008,-35.3,-9.20231213872832
+"2020","Western","Ghana","Residential",1445.4,0.142662893101649,47.53,2.34645892351275
+"2017","Western","Guinea","Commercial",291.86,0,-17.51,0
+"2018","Western","Guinea","Commercial",1054.49,2.61299938326595,-43.43,-1.48029697315819
+"2019","Western","Guinea","Commercial",0,-1,0,1
+"2020","Western","Guinea","Commercial",963.88,0,3.92,0
+"2017","Western","Guinea","Public",1025.36,0,45.5,0
+"2018","Western","Guinea","Public",0,-1,0,1
+"2019","Western","Guinea","Public",2399.3,0,-30.38,0
+"2020","Western","Guinea","Public",660.24,-0.724819739090568,-24.92,0.179723502304147
+"2017","Western","Guinea","Residential",0,0,0,0
+"2018","Western","Guinea","Residential",197.63,0,1.98,0
+"2019","Western","Guinea","Residential",0,-1,0,1
+"2020","Western","Guinea","Residential",0,0,0,0
+"2017","Western","Guinea-Bissau","Commercial",28.16,0,0.28,0
+"2018","Western","Guinea-Bissau","Commercial",861.5,29.5930397727273,60.31,-214.392857142857
+"2019","Western","Guinea-Bissau","Commercial",1212.28,0.407173534532792,-43.92,1.72823743989388
+"2020","Western","Guinea-Bissau","Commercial",1204.73,-0.00622793414062754,44.58,2.01502732240437
+"2017","Western","Guinea-Bissau","Public",812.02,0,40.6,0
+"2018","Western","Guinea-Bissau","Public",1175.9,0.448117041452181,14.34,0.64679802955665
+"2019","Western","Guinea-Bissau","Public",223.93,-0.809567140062931,4.48,0.687587168758717
+"2020","Western","Guinea-Bissau","Public",0,-1,0,1
+"2017","Western","Guinea-Bissau","Residential",1342.32,0,77.18,0
+"2018","Western","Guinea-Bissau","Residential",0,-1,0,1
+"2019","Western","Guinea-Bissau","Residential",0,0,0,0
+"2020","Western","Guinea-Bissau","Residential",53.89,0,4.31,0
+"2017","Western","Liberia","Commercial",301.63,0,-9.05,0
+"2018","Western","Liberia","Commercial",0,-1,0,1
+"2019","Western","Liberia","Commercial",580.63,0,-11.62,0
+"2020","Western","Liberia","Commercial",239.28,-0.587895906170883,-4.79,0.587779690189329
+"2017","Western","Liberia","Public",78.12,0,-5.47,0
+"2018","Western","Liberia","Public",778.49,8.96530977982591,54.49,10.9616087751371
+"2019","Western","Liberia","Public",685.47,-0.119487726239258,-47.98,1.8805285373463
+"2020","Western","Liberia","Public",0,-1,0,1
+"2017","Western","Liberia","Residential",1417,0,-60.79,0
+"2018","Western","Liberia","Residential",921.03,-0.350014114326041,-73.68,-0.212041454186544
+"2019","Western","Liberia","Residential",306.96,-0.666720953714863,9.21,1.125
+"2020","Western","Liberia","Residential",1323.73,3.31238597862914,16.25,-0.764386536373507
+"2017","Western","Mali","Commercial",0,0,0,0
+"2018","Western","Mali","Commercial",305.74,0,-9.17,0
+"2019","Western","Mali","Commercial",1491.02,3.87675802969844,-76.54,-7.34678298800436
+"2020","Western","Mali","Commercial",1332.44,-0.106356722243833,35.35,1.46185001306506
+"2017","Western","Mali","Public",340.24,0,-22.83,0
+"2018","Western","Mali","Public",0,-1,0,1
+"2019","Western","Mali","Public",0,0,0,0
+"2020","Western","Mali","Public",93.81,0,-2.81,0
+"2017","Western","Mali","Residential",1248.72,0,10.21,0
+"2018","Western","Mali","Residential",1156.84,-0.0735793452495354,64.73,-5.33986287952987
+"2019","Western","Mali","Residential",242.66,-0.790238926731441,19.41,0.700139039085432
+"2020","Western","Mali","Residential",21.08,-0.913129481579164,-1.26,1.06491499227202
+"2017","Western","Mauritania","Commercial",573.76,0,-34.43,0
+"2018","Western","Mauritania","Commercial",1061.15,0.849466675962075,63.49,2.84403136799303
+"2019","Western","Mauritania","Commercial",356.89,-0.663676200348678,-17.84,1.28098913214679
+"2020","Western","Mauritania","Commercial",1434.54,3.01955784695564,119.94,7.72309417040359
+"2017","Western","Mauritania","Public",1049.89,0,71.38,0
+"2018","Western","Mauritania","Public",347.85,-0.668679575955576,-13.91,1.19487251330905
+"2019","Western","Mauritania","Public",630.95,0.813856547362369,6.31,1.45363048166786
+"2020","Western","Mauritania","Public",871.54,0.381313891750535,-17.43,3.76228209191759
+"2017","Western","Mauritania","Residential",0,0,0,0
+"2018","Western","Mauritania","Residential",702.51,0,21.08,0
+"2019","Western","Mauritania","Residential",1093.8,0.556988512619038,63.05,-1.99098671726755
+"2020","Western","Mauritania","Residential",949.73,-0.131715121594442,37.99,0.39746233148295
+"2017","Western","Niger","Commercial",59.99,0,-4.8,0
+"2018","Western","Niger","Commercial",1925.54,31.0976829471579,-57.69,-11.01875
+"2019","Western","Niger","Commercial",389.73,-0.797599634388276,-15.59,0.729762523834287
+"2020","Western","Niger","Commercial",1713.49,3.3966079080389,-6.77,0.565747273893522
+"2017","Western","Niger","Public",993.01,0,-30.17,0
+"2018","Western","Niger","Public",0,-1,0,1
+"2019","Western","Niger","Public",1409.94,0,-44.51,0
+"2020","Western","Niger","Public",812.17,-0.423968395818262,-64.97,-0.45967198382386
+"2017","Western","Niger","Residential",3.3,0,-0.03,0
+"2018","Western","Niger","Residential",983.64,297.072727272727,22.51,751.333333333334
+"2019","Western","Niger","Residential",346.72,-0.647513317880525,-17.34,1.77032430031097
+"2020","Western","Niger","Residential",945.62,1.72733041070604,0,1
+"2017","Western","Nigeria","Commercial",2367.86,0,5.38,0
+"2018","Western","Nigeria","Commercial",1792.54,-0.242970445887848,71.18,-12.2304832713755
+"2019","Western","Nigeria","Commercial",1288.76,-0.281042542983699,-45.1,1.63360494520933
+"2020","Western","Nigeria","Commercial",2333.64,0.81076383500419,72.04,2.59733924611973
+"2017","Western","Nigeria","Public",3478.36,0,-134.62,0
+"2018","Western","Nigeria","Public",3553.8,0.0216883818811164,-45.51,0.661937305006686
+"2019","Western","Nigeria","Public",2792.57,-0.214201699589172,-21.97,0.517248956273347
+"2020","Western","Nigeria","Public",2778.66,-0.00498107478057857,40,2.82066454255803
+"2017","Western","Nigeria","Residential",3481.12,0,29.4,0
+"2018","Western","Nigeria","Residential",1271.77,-0.634666429195202,24.11,0.179931972789116
+"2019","Western","Nigeria","Residential",1765.77,0.388435015765429,52.93,-1.19535462463708
+"2020","Western","Nigeria","Residential",3075.46,0.741710415286249,39.4,0.255620631022105
+"2017","Western","Senegal","Commercial",470.26,0,11.77,0
+"2018","Western","Senegal","Commercial",1295.3,1.75443371751797,-54.61,5.63976210705183
+"2019","Western","Senegal","Commercial",893.17,-0.310453176870223,53.59,1.98132210217909
+"2020","Western","Senegal","Commercial",606.56,-0.320890759877739,29.79,0.444112707594701
+"2017","Western","Senegal","Public",0,0,0,0
+"2018","Western","Senegal","Public",890.82,0,-71.27,0
+"2019","Western","Senegal","Public",515.84,-0.420938012168564,38.74,1.54356671811421
+"2020","Western","Senegal","Public",0,-1,0,1
+"2017","Western","Senegal","Residential",469.98,0,13.2,0
+"2018","Western","Senegal","Residential",0,-1,0,1
+"2019","Western","Senegal","Residential",0,0,0,0
+"2020","Western","Senegal","Residential",300.64,0,6.01,0
+"2017","Western","Sierra Leone","Commercial",695.88,0,-13.92,0
+"2018","Western","Sierra Leone","Commercial",1432.97,1.0592199804564,58.85,5.22772988505747
+"2019","Western","Sierra Leone","Commercial",845.73,-0.409806206689603,-33.14,1.56312659303314
+"2020","Western","Sierra Leone","Commercial",0,-1,0,1
+"2017","Western","Sierra Leone","Public",238.65,0,2.39,0
+"2018","Western","Sierra Leone","Public",0,-1,0,1
+"2019","Western","Sierra Leone","Public",891.68,0,-8.92,0
+"2020","Western","Sierra Leone","Public",1293.56,0.450699802619774,-15.37,-0.723094170403588
+"2017","Western","Sierra Leone","Residential",1213.31,0,-6.03,0
+"2018","Western","Sierra Leone","Residential",364.23,-0.699804666573258,0,1
+"2019","Western","Sierra Leone","Residential",0,-1,0,0
+"2020","Western","Sierra Leone","Residential",117.12,0,-1.17,0
+"2017","Western","Togo","Commercial",1457.72,0,-53.69,0
+"2018","Western","Togo","Commercial",290.18,-0.800935707817688,-2.29,0.957347737008754
+"2019","Western","Togo","Commercial",660.33,1.27558756633814,-19.81,-7.65065502183406
+"2020","Western","Togo","Commercial",0,-1,0,1
+"2017","Western","Togo","Public",155.31,0,4.66,0
+"2018","Western","Togo","Public",0,-1,0,1
+"2019","Western","Togo","Public",875.44,0,-43.77,0
+"2020","Western","Togo","Public",1467.39,0.676174266654482,-41.51,0.0516335389536213
+"2017","Western","Togo","Residential",326.97,0,22.89,0
+"2018","Western","Togo","Residential",294.32,-0.0998562559256202,23.22,-0.0144167758846657
+"2019","Western","Togo","Residential",721.02,1.44978254960587,40.2,-0.731266149870801
+"2020","Western","Togo","Residential",440.08,-0.389642450972234,-17.6,1.43781094527363

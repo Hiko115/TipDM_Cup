@@ -59,12 +59,12 @@ data_1_3$季度[which(format(as.Date(as.yearmon(data_1_3$日期),format="%Y-%m-%
 #output csv for dashboard
 data_2 <- ddply(data_1_3, .(年度,季度,地区,国家,服务分类 ), summarise, 各国销售额=sum(销售额),各国利润=sum(利润))
 data_2_1 <- ddply(data_1_2,.(日期,地区,国家), summarise, 各国销售额=sum(销售额),各国利润=sum(利润))
-write.xlsx(data_2_1,'quarter.xlsx',row.names = F)
+#write.xlsx(data_2_1,'quarter.xlsx',row.names = F)
 data_2_4 <- ddply(data_1_2,.(日期,地区,国家,服务分类 ), summarise, 各国销售额=sum(销售额),各国利润=sum(利润))
 data_2_4$日期 <- as.yearqtr(as.Date(as.yearmon(data_2_4$日期),format="%Y-%m-%d"),format = "%Y-%m-%d")
 
 data_2_2 <- ddply(data_1_2,.(日期,地区,国家,服务分类), summarise, 各国销售额=sum(销售额),各国利润=sum(利润))
-write.xlsx(data_2_2,'quarter2.xlsx',row.names = F)
+#write.xlsx(data_2_2,'quarter2.xlsx',row.names = F)
 ```
 
 Task1.1
@@ -95,11 +95,17 @@ colnames(task1_1) <- c("年度","地区","国家","服务分类","各国销售�
 #Clear infinite
 task1_1$销售增长率[which(is.infinite(task1_1$销售增长率))] <- 0
 task1_1$利润增长率[which(is.infinite(task1_1$利润增长率))] <- 0
+
+#output result named task1_1
+write.csv(task1_1,"../result/result1/task1_1.csv",row.names = F)
 ```
 
 Task1.2
 ```{r}
 task1_2 <- ddply(data_1 , .(地区,国家,服务分类 ), summarise, 销售额=sum(销售额),利润=sum(利润))
+
+#output result named task1_2
+write.csv(task1_2,"../result/result1/task1_2.csv",row.names = F)
 ```
 
 Task1.3
@@ -111,7 +117,8 @@ data2_1 <- ddply(merge(data2, unique(data2$销售经理)),
 task1_3 <- data2_1[order(desc(data2_1$销售合同)),]
 row.names(task1_3) <- c(1:nrow(task1_3))
 
-write.csv(task1_3,"task1_3.csv")
+#output result named task1_3
+write.csv(task1_3,"../result/result1/task1_3.csv",row.names = F)
 
 ```
 
@@ -131,6 +138,7 @@ colnames(task1_4) <- c("地区","国家","服务分类","销售额预测","利�
 task1_4$销售额预测 <- round(task1_4$销售额预测,4)
 task1_4$利润预测 <- round(task1_4$利润预测,4)
 
-write.csv(task1_4,"task1_4.csv",row.names = F)
+#output result named task1_4
+write.csv(task1_4,"../result/result1/task1_4.csv",row.names = F)
 ```
 
