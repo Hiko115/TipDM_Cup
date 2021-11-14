@@ -12,6 +12,7 @@ require(dplyr)
 data2 <- read.xlsx("../../附件2.xlsx","Sheet1",header = TRUE)
 ```
 
+Task2.1
 ```{r}
 data2_1 <- data2
 
@@ -20,21 +21,41 @@ data2_1$分组[order(data2_1$产品通用名称,data2_1$总无机养分百分比
 data2_1$分组[which(data2_1$产品通用名称!='复混肥料')] <- NA
 data2_1 <- data2_1[!is.na(data2_1$分组),]
 
-op <-  data2_1 %>% group_by(data2_1$产品通用名称) %>%
-	     mutate(rank = rank(data2_1$总无机养分百分比, ties.method = "first")) %>% 
-       arrange(data2_1$总无机养分百分比)
+group_level <- (max(data2_1$总无机养分百分比)-min(data2_1$总无机养分百分比))/10
 
-df <- op %>%
-  arrange(rank) %>%
-  mutate(分组 = ntile(rank, 10))
+data2_1$分组 <- cut(data2_1$总无机养分百分比, breaks=c(0,group_level*c(1:10)), labels=c(1:10))
 
-df$rank <- NULL
-
-data2_1_1 <- merge(x=data2,y=df,all.x = TRUE)
-
-data2_1_1$`data2_1$产品通用名称` <- NULL
+data2_1_1 <- merge(x=data2,y=data2_1,all.x = TRUE)
 
 write.xlsx(data2_1_1,"../../result/result2_1.xlsx",row.names = F)
 
+```
+
+Task2.2
+```{r}
+data2_2 <- data2
+
+data2_2$分组 <- NA
+data2_2$分组[order(data2_2$产品通用名称,data2_2$总无机养分百分比)] <- 1:10
+data2_2$分组[which(data2_2$产品通用名称!='有机肥料')] <- NA
+data2_2 <- data2_2[!is.na(data2_2$分组),]
+
+op <-  data2_2 %>% group_by(data2_2$产品通用名称) %>%
+	     mutate(ior_rank = rank(data2_2$总无机养分百分比, ties.method = "first")) %>% 
+       mutate(or_rank = rank(data2_2$有机质百分比, ties.method = "first")) %>% 
+       arrange(data2_2$总无机养分百分比,data2_2$有机质百分比)
+
+df <- op %>%
+  arrange(ior_rank,or_rank) %>%
+  mutate(ior_rank = ntile(ior_rank, 10),or_rank = ntile(or_rank, 10))
+
+df$分组 <- paste("(",df$ior_rank,",",df$or_rank,")",sep = "")
+data2_2_1 <- merge(x=data2,y=df,all.x = TRUE)
+
+data2_2_1$`data2_2$产品通用名称` <- NULL
+data2_2_1$ior_rank <- NULL
+data2_2_1$or_rank <- NULL
+
+write.xlsx(data2_2_1,"../../result/result2_2.xlsx",row.names = F)
 ```
 
