@@ -1,1 +1,0 @@
-# TipDM_Cup
