@@ -1,0 +1,49 @@
+```{r}
+Sys.setlocale(locale = "chs")
+#install.packages("xlsx")
+require("xlsx")
+#install.packages("dplyr")
+require(dplyr)
+#install.packages("plyr")
+require(plyr)
+```
+
+```{r}
+data1 <- read.xlsx("../../附件1.xlsx","安徽省",header = TRUE)
+colnames(data1) <- c("序号","企业名称","产品通用名称","产品形态","总氮百分比","P2O5百分比","K2O百分比","含氯情况","有机质百分比","正式登记证号","发证日期","有效期")
+```
+
+Task1.1 Pre-processing
+```{r}
+#Check the category of data
+unique(data1$产品通用名称)
+
+#Integrate the product common name
+data1$产品通用名称[which(data1$产品通用名称 == '有机肥料 ')] <- '有机肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '\n有机肥料\n')] <- '有机肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '有机肥料\n')] <- '有机肥料'
+
+data1$产品通用名称[which(data1$产品通用名称 == '有机无机   复混肥料')] <- '有机-无机复混肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '有机－无机复混肥料')] <- '有机-无机复混肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '有机-无机   复混肥料')] <- '有机-无机复混肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '有机无机    复混肥料')] <- '有机-无机复混肥料'
+
+data1$产品通用名称[which(data1$产品通用名称 == '稻苗床土调酸剂')] <- '床土调酸剂'
+
+data1$产品通用名称[which(data1$产品通用名称 == ' 掺混肥料')] <- '复混肥料'
+data1$产品通用名称[which(data1$产品通用名称 == '掺混肥料')] <- '复混肥料'
+
+#Check the integrated product name
+unique(data1$产品通用名称)
+
+write.xlsx(data1,'../../result/result1_1.xlsx',row.names = F)
+```
+
+Task1.2
+```{r}
+
+data1_2 <- ddply(data1, .(序号,企业名称,产品通用名称,产品形态,总氮百分比,P2O5百分比,K2O百分比,含氯情况,有机质百分比,正式登记证号,发证日期,有效期), summarise, 总无机养分百分比=format(round(sum(总氮百分比,P2O5百分比,K2O百分比),digit=3),nsmall=3))
+
+write.xlsx(data1_2,'../../result/result1_2.xlsx',row.names = F)
+```
+
