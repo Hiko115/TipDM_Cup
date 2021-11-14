@@ -1,0 +1,55 @@
+```{r}
+Sys.setlocale(locale = "chs")
+#install.packages("xlsx")
+require("xlsx")
+#install.packages("zoo")
+require(zoo)
+#install.packages("tolower")
+require(tolower)
+#install.packages("vegan")
+library(vegan)
+```
+
+```{r}
+result2_2 <- read.xlsx("../../result/result2_2.xlsx","Sheet1",header = TRUE)
+data3 <- read.xlsx("../../附件3.xlsx","原料与占比",header = TRUE)
+```
+
+Task 3.2
+```{r}
+data3_2_1 <- result2_2
+data3_2_2 <- result2_2
+data3_2_1$发证日期[which(is.na(as.Date(data3_2_1$发证日期)))] <- as.character(format(as.Date(data3_2_1$发证日期[which(is.na(as.Date(data3_2_1$发证日期)))],format='%Y/%m/%d'),'%Y-%m-%d'))
+
+data3_2_2$发证日期[which(is.na(data3_2_1$发证日期))] <- as.character(as.Date(as.yearmon(data3_2_2$发证日期[which(is.na(data3_2_1$发证日期))]),))
+
+data3_2_2$发证日期[which(is.na(as.Date(data3_2_2$发证日期)))] <- as.character(format(as.Date(data3_2_2$发证日期[which(is.na(as.Date(data3_2_2$发证日期)))],format='%Y/%m/%d'),'%Y-%m-%d'))
+
+data3_2_3 <- data3_2_2 %>%
+    dplyr::filter(发证日期 > as.POSIXct("2016-09-30"))
+
+write.xlsx(data3_2_3,"../../result/result3_2.xlsx",row.names = F)
+
+```
+
+Task3.3
+```{r}
+data3_3 <- data3
+data3_3_1<-data.frame(table(data3_3$企业名称))
+ID <- data3_3_1[which(data3_3_1$Freq >10 ),1]
+data3_3_2 <- data3_3[which(data3_3_1$Var1 %in% ID),]
+data3_3_2[which(is.na(data3_3_2),arr.ind = T)] <- 0
+data3_3_2
+data3_3_2[,which(colSums(data3_3_2)!= 0)]
+data3_3_2
+```
+
+
+```{r}
+data3_3_2
+data3_3_2 <- data3_3_2[,2:10]
+data3_3_2 <- t(data3_3_2)
+data3_3_2
+data3_3_2.ja <- vegdist(data3_3_2,method="jaccard")
+```
+
