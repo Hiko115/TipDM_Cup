@@ -1,0 +1,74 @@
+```{r}
+Sys.setlocale(locale = "chs")
+#install.packages("xlsx")
+require("xlsx")
+# install.packages("stringr")
+require(stringr)
+```
+
+```{r}
+data4 <- read.xlsx("../../附件4.xlsx","Sheet1",header = TRUE)
+
+```
+
+Task4.1
+```{r}
+tech <- data4$技术指标
+data4_1 <- data4
+data4_1$氮 <- NA
+data4_1$磷 <- NA
+data4_1$钾 <- NA
+tech_word <- str_extract(tech, "(\\d+\\-\\d+\\-\\d+)")
+for (i in 1:length(tech_word)) {
+  tmp <- unlist(strsplit(tech_word[i], split = "\\D"))
+  data4_1$氮[i] <- tmp[1]
+  data4_1$磷[i] <- tmp[2]
+  data4_1$钾[i] <- tmp[3]
+  
+}
+
+tech[!is.na(tech_word)] <- NA
+
+tech_word <- str_extract(tech, "(\\d+\\D\\d+\\D\\d+)")
+for (i in 1:length(tech_word)) {
+  tmp <- unlist(strsplit(perl=T,tech_word[i], '\\D(?!\d)'))
+  
+  data4_1$氮[i] <- tmp[1]
+  data4_1$磷[i] <- tmp[2]
+  data4_1$钾[i] <- tmp[3]
+  
+}
+
+```
+
+Task4.2
+```{r}
+data4_2 <- data4
+
+n <- 1
+for(i in 1:nrow(data4_2)){
+  tmp <- unlist(strsplit(data4_2$原料与占比[i], ','))
+  for(y in 1:length(tmp)){
+    n <- n+1
+  }
+}
+data4_2_1 <- data.frame(c(1:n))
+colnames(data4_2_1) <- "序号"
+rownum <- 1
+for(i in 1:nrow(data4_2)){
+  tmp <- unlist(strsplit(data4_2$原料与占比[i], ','))
+  for(y in 1:length(tmp)){
+    data4_2_1$序号[rownum] <- i
+    tmp2 <- unlist(strsplit(tmp[y], '\\(占'))
+    data4_2_1$原料名称[rownum] <- tmp2[1]
+    data4_2_1$百分比[rownum] <- unlist(strsplit(tmp2[2], '\\)'))
+    rownum <- rownum+1
+  }
+
+}
+
+write.xlsx(data4_2_1,"../../result/result4_2.xlsx",row.names = F)
+```
+
+
+
