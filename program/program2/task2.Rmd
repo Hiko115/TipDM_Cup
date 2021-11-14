@@ -4,6 +4,8 @@ Sys.setlocale(locale = "chs")
 require("xlsx")
 #install.packages("remotes")
 require(remotes)
+#install.packages("dplyr")
+require(dplyr)
 ```
 
 ```{r}
