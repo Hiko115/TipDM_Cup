@@ -6,6 +6,20 @@ require("xlsx")
 require(remotes)
 #install.packages("dplyr")
 require(dplyr)
+#install.packages("factoextra")
+require(factoextra)
+#install.packages("plotly")
+require(plotly)
+#install.packages("ggplot2")
+require(ggplot2)
+#install.packages("tidyr")
+require(tidyr)
+#install.packages("tibble")
+require(tibble)
+#install.packages("hrbrthemes")
+require(hrbrthemes)
+
+
 ```
 
 ```{r}
@@ -16,14 +30,12 @@ Task2.1
 ```{r}
 data2_1 <- data2
 
-data2_1$分组 <- NA
-data2_1$分组[order(data2_1$产品通用名称,data2_1$总无机养分百分比)] <- 1:10
-data2_1$分组[which(data2_1$产品通用名称!='复混肥料')] <- NA
-data2_1 <- data2_1[!is.na(data2_1$分组),]
+data2_1 <- data2_1[which(data2_1$产品通用名称=='复混肥料'),]
 
 group_level <- (max(data2_1$总无机养分百分比)-min(data2_1$总无机养分百分比))/10
 
-data2_1$分组 <- cut(data2_1$总无机养分百分比, breaks=c(0,group_level*c(1:10)), labels=c(1:10))
+data2_1$分组标签 <- cut(data2_1$总无机养分百分比, breaks=c(-0.01,
+                                               group_level*c(2:10),1.01), labels=c(1:10))
 
 data2_1_1 <- merge(x=data2,y=data2_1,all.x = TRUE)
 
@@ -35,23 +47,66 @@ Task2.2
 ```{r}
 data2_2 <- data2
 
-data2_2$分组 <- NA
-data2_2$分组[order(data2_2$产品通用名称,data2_2$总无机养分百分比)] <- 1:10
-data2_2$分组[which(data2_2$产品通用名称!='有机肥料')] <- NA
-data2_2 <- data2_2[!is.na(data2_2$分组),]
+data2_2 <- data2_2[which(data2_2$产品通用名称=='有机肥料'),]
 
 ior_group_level <- (max(data2_2$总无机养分百分比)-min(data2_2$总无机养分百分比))/10
 or_group_level <- (max(data2_2$有机质百分比)-min(data2_2$有机质百分比))/10
 
-data2_2$ior_rank <- cut(data2_2$总无机养分百分比, breaks=c(0,ior_group_level*c(1:10)), labels=c(1:10))
-data2_2$or_rank <- cut(data2_2$有机质百分比, breaks=c(0,or_group_level*c(1:10)), labels=c(1:10))
+data2_2$ior_rank <- cut(data2_2$总无机养分百分比, breaks=c(-0.01,
+                                                   ior_group_level*c(2:10),1.01), labels=c(1:10))
+data2_2$or_rank <- cut(data2_2$有机质百分比, breaks=c(-0.01,or_group_level*c(2:10),1.01), labels=c(1:10))
 
-data2_2$分组 <- paste("(",data2_2$ior_rank,",",data2_2$or_rank,")",sep = "")
+data2_2$分组标签 <- paste("(",data2_2$ior_rank,",",data2_2$or_rank,")",sep = "")
 data2_2_1 <- merge(x=data2,y=data2_2,all.x = TRUE)
 
 data2_2_1$ior_rank <- NULL
 data2_2_1$or_rank <- NULL
 
 write.xlsx(data2_2_1,"../../result/result2_2.xlsx",row.names = F)
+#write.xlsx(data2_2,"../../result/result2_2_2.xlsx",row.names = F)
+
+
+# Volcano dataset
+#volcano
+
+# Heatmap 
+data2_2 %>%
+  
+  # # Data wrangling
+  # as_tibble() %>%
+   #rowid_to_column(var="X") %>%
+  #gather(key="Y", value="Z", -1) %>%
+  # 
+  # # Change Y to numeric
+  mutate(X=as.numeric(ior_rank)) %>%
+  mutate(Y=as.numeric(or_rank)) %>%
+  mutate(Z= 1)
+  # Viz
+p <- ggplot(data2_2, aes(X, Y, fill= Z)) + 
+    geom_tile() +
+    theme_ipsum() +
+  scale_fill_distiller(palette = "RdPu") +
+    theme(legend.position="none")
+ggplotly(p,tooltip="text")
+```
+
+Task2.3
+```{r}
+data2_3 <- data2
+
+data2_3 <- data2_3[which(data2_3$产品通用名称=='复混肥料'),]
+
+data2_3_1 <- data2_3[,5:7]
+data2_3_1$cluster <- factor(kmeans(data2_3_1, centers=4) $cluster)
+data2_3$聚类标签 <- data2_3_1$cluster
+data2_3_2 <- merge(x=data2,y=data2_3,all.x = TRUE)
+
+write.xlsx(data2_3_2,"../../result/result2_3.xlsx",row.names = F)
+
+plot_ly(data2_3_1, x=~总氮百分比, y=~P2O5百分比, 
+z=~K2O百分比, color=~data2_3_1$cluster) %>%
+     add_markers(size=1.5)
+
+pairs(~总氮百分比+P2O5百分比+K2O百分比+聚类标签,data = data2_3, main = "Scatterplot Matrix")
 ```
 
