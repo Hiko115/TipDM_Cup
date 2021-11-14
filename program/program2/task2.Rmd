@@ -1,0 +1,38 @@
+```{r}
+Sys.setlocale(locale = "chs")
+#install.packages("xlsx")
+require("xlsx")
+#install.packages("remotes")
+require(remotes)
+```
+
+```{r}
+data2 <- read.xlsx("../../附件2.xlsx","Sheet1",header = TRUE)
+```
+
+```{r}
+data2_1 <- data2
+
+data2_1$分组 <- NA
+data2_1$分组[order(data2_1$产品通用名称,data2_1$总无机养分百分比)] <- 1:10
+data2_1$分组[which(data2_1$产品通用名称!='复混肥料')] <- NA
+data2_1 <- data2_1[!is.na(data2_1$分组),]
+
+op <-  data2_1 %>% group_by(data2_1$产品通用名称) %>%
+	     mutate(rank = rank(data2_1$总无机养分百分比, ties.method = "first")) %>% 
+       arrange(data2_1$总无机养分百分比)
+
+df <- op %>%
+  arrange(rank) %>%
+  mutate(分组 = ntile(rank, 10))
+
+df$rank <- NULL
+
+data2_1_1 <- merge(x=data2,y=df,all.x = TRUE)
+
+data2_1_1$`data2_1$产品通用名称` <- NULL
+
+write.xlsx(data2_1_1,"../../result/result2_1.xlsx",row.names = F)
+
+```
+
